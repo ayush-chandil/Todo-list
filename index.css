@@ -1,0 +1,43 @@
+body{
+    background-color:gold;
+}
+
+h1{
+    text-align:center;
+    padding-top:20px;
+    font-weight:bolder;
+    font-size:50px;
+    color:blue;
+}
+
+.form-control{
+    
+    padding-top:2px; 
+    border-radius:20px;
+    width:50%;
+    left:80%;
+    display:block;
+    margin:auto;
+
+
+}
+
+button{
+    margin-bottom: 10px;
+    background-color:green;
+    color:white;
+    border-radius:20px;
+    position:relative;
+    -ms-transform: translateY(-50%,-50%);
+    transform: translateY(-50%,-50%);
+    left:135%;
+}
+
+i.fas{
+   float:right;
+   font-size: x-large;
+}
+
+i.fas:hover{
+    color:red;
+}

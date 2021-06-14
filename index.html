@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>TODO LIST</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8ce1c627a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>  
+
+<body>
+
+<div class="container">
+    <h1>TODO LIST</h1>
+    
+        <div class="row">
+            <div class="col-md--8">
+        <input type="text" class="form-control" id="task">
+            </div>
+         <br>
+        <div class="col-md-4">
+         <button onclick="taskadd()">ADD ITEMS</button>  
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+        <ul class="list-group" id="work">
+            <li class="list-group-item">TASK<i class="fas fa-trash" onclick="remove(this)"></i></li>
+           
+            
+        </ul>
+    </div>
+    </div>
+
+</div>
+ <script src="index.js"></script>
+
+
+</body>
+</html>
